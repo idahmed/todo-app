@@ -18,7 +18,7 @@ function TodoCard({ id, item }) {
   );
   return (
     <styles.Card className="card">
-      <styles.H3White>{title}</styles.H3White>
+      <styles.H3Red>{title}</styles.H3Red>
       <styles.Paragraph>{content}</styles.Paragraph>
       <styles.Input type="submit" value="Delet" onClick={handleDelete} />
     </styles.Card>

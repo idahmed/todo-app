@@ -23,6 +23,6 @@ export const Paragraph = styled.p`
   text-align: start;
 `;
 
-export const H3White = styled(H3)`
-  border-color: #fff;
+export const H3Red = styled(H3)`
+  border-color: red;
 `;
